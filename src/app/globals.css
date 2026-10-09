@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #1a1714;
+  --color-gold: #b8913a;
+  --color-gold-dark: #8f6d24;
+  --color-gold-light: #ecdcb0;
+  --color-cream: #faf6ee;
+  --font-sans: var(--font-cairo);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
